@@ -1,0 +1,16 @@
+C:\Users\Jordan\Documents\Nmit\Workspace\CSharp_Take_2\bin\Debug\net5.0\CSharp_Take_2.exe
+C:\Users\Jordan\Documents\Nmit\Workspace\CSharp_Take_2\bin\Debug\net5.0\CSharp_Take_2.deps.json
+C:\Users\Jordan\Documents\Nmit\Workspace\CSharp_Take_2\bin\Debug\net5.0\CSharp_Take_2.runtimeconfig.json
+C:\Users\Jordan\Documents\Nmit\Workspace\CSharp_Take_2\bin\Debug\net5.0\CSharp_Take_2.runtimeconfig.dev.json
+C:\Users\Jordan\Documents\Nmit\Workspace\CSharp_Take_2\bin\Debug\net5.0\CSharp_Take_2.dll
+C:\Users\Jordan\Documents\Nmit\Workspace\CSharp_Take_2\bin\Debug\net5.0\ref\CSharp_Take_2.dll
+C:\Users\Jordan\Documents\Nmit\Workspace\CSharp_Take_2\bin\Debug\net5.0\CSharp_Take_2.pdb
+C:\Users\Jordan\Documents\Nmit\Workspace\CSharp_Take_2\obj\Debug\net5.0\CSharp_Take_2.csprojAssemblyReference.cache
+C:\Users\Jordan\Documents\Nmit\Workspace\CSharp_Take_2\obj\Debug\net5.0\CSharp_Take_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jordan\Documents\Nmit\Workspace\CSharp_Take_2\obj\Debug\net5.0\CSharp_Take_2.AssemblyInfoInputs.cache
+C:\Users\Jordan\Documents\Nmit\Workspace\CSharp_Take_2\obj\Debug\net5.0\CSharp_Take_2.AssemblyInfo.cs
+C:\Users\Jordan\Documents\Nmit\Workspace\CSharp_Take_2\obj\Debug\net5.0\CSharp_Take_2.csproj.CoreCompileInputs.cache
+C:\Users\Jordan\Documents\Nmit\Workspace\CSharp_Take_2\obj\Debug\net5.0\CSharp_Take_2.dll
+C:\Users\Jordan\Documents\Nmit\Workspace\CSharp_Take_2\obj\Debug\net5.0\ref\CSharp_Take_2.dll
+C:\Users\Jordan\Documents\Nmit\Workspace\CSharp_Take_2\obj\Debug\net5.0\CSharp_Take_2.pdb
+C:\Users\Jordan\Documents\Nmit\Workspace\CSharp_Take_2\obj\Debug\net5.0\CSharp_Take_2.genruntimeconfig.cache

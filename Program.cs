@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Linq;
+using System.Text;
 
 namespace CSharp_Take_2
 {
-    class User
+    internal class User
     {
         private string name;
         public string Name { get { return name; } set { name = value; } }
@@ -27,26 +29,68 @@ namespace CSharp_Take_2
         private string logins;
         public string Logins { get { return logins; } set { logins = value; } }
     }
-        class Program
+
+    internal class Program
     {
-        static void Main(string[] args)
+        private static User addUser(string name)
         {
             User user = new User();
-            Console.WriteLine("Enter Name");
-            string user.Name = Console.ReadLine();
-            
-            var users = new List<User>();
+            user.Name = name;
 
-            var user = users.Where(u => u.FirstName == "John");
-            user.Count
+            //Console.WriteLine("Enter Date of Birth <DD/MM/YYYY>");
+            //user.DateOfBirth = Console.ReadLine();
 
+            //Console.WriteLine("Enter Phone Number");
+            //user.PhoneNumber = Console.ReadLine();
 
-            Console.WriteLine("Enter Date of Birth");
-            Console.WriteLine("Enter Phone Number");
-            Console.WriteLine("Enter City");
-            Console.WriteLine("Enter Postal Code");
-            Console.WriteLine("Account Activated? Y/N");
+            //Console.WriteLine("Enter City");
+            //user.City = Console.ReadLine();
+
+            //Console.WriteLine("Enter Postal Code");
+            //user.PostCode = Console.ReadLine();
+
+            //Console.WriteLine("Account Activated? Y/N");
+            //user.Activated = Console.ReadLine();
+
             Console.WriteLine("Number of Loggins");
+            user.Logins = Console.ReadLine();
+
+            return user;
+        }
+
+        private static void Main(string[] args)
+        {
+            dynamic users = new ExpandoObject();
+
+            for (int i = 0; i >= 0; i++ )
+            {
+                Console.WriteLine("1. Add New User");
+                Console.WriteLine("2. Print List");
+                Console.WriteLine("3. Exit");
+
+                switch (Console.ReadLine())
+                {
+                    case "1":
+                        {
+                            Console.WriteLine("Enter Username");
+                            string username = Console.ReadLine();
+                            users.username = addUser(username);
+                            break;
+                        }
+                    case "2":
+                        foreach (KeyValuePair<string, object> obj in users)
+                        {
+                            Console.WriteLine(obj.Key);
+                            //foreach (object Key in obj.Key);
+                        }
+                        Console.WriteLine("Press Any Key");
+                        Console.ReadLine();
+                        break;
+                    case "3":
+                        i = -10;
+                        break;
+                }
+            }
 
         }
     }
